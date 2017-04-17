@@ -1,0 +1,25 @@
+{
+  "name": "jc-e2e",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "npm start",
+    "start": "node_modules/.bin/nightwatch",
+    "report": "node --harmony reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JobCompare/jc-e2e.git"
+  },
+  "author": "Brian Soe",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^2.28.0",
+    "cucumber": "^2.0.0-rc.0",
+    "cucumber-html-reporter": "^0.4.0",
+    "nightwatch": "^0.9.14",
+    "nightwatch-cucumber": "^7.1.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-server": "^3.3.1"
+  }
+}
